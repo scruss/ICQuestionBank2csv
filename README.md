@@ -11,10 +11,12 @@ Written by Stewart C. Russell (aka scruss) / VA3PID - 2014-03-07.
 
 ## Requirements ##
 
-* Perl, with Text::CSV_XS
+* Perl, with Text::CSV_XS ≥ version 1.01
 * xpdf tools
 * Bash
 * wget
+
+If the script fails with `Can't locate object method "print_hr" via package "Text::CSV_XS" …`, your Text::CSV_XS is too old. This currently affects Debian Wheezy (particularly noted under Raspbian).
 
 ## Usage ##
 
